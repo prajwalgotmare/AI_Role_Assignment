@@ -10,15 +10,15 @@ This project involves taking an input video file in mp4 format and performing co
 
 ## Video Conversion
 
-The provided input video was labeled as "AI Assignment video" and had a variable frame rate mode of 30.043 fps as found in the metadata of the video. Therefore, the video was first converted to a constant frame rate mode with a dimension of 1280 * 720 and fps = 30. I have used OpenShot video editor to convert "Ai assignment video.mp4" to the required video format named as "original formatted.mp4" to acheive best results (For more file comparison, you can check Videos_Metadata_comparison.txt above - To check difference between AI Assignment video.mp4 and original formatted.mp4 )
+The provided input video was labeled as "AI Assignment video" and had a variable frame rate mode of 30.043 fps as found in the metadata of the video. Therefore, the video was first converted to a constant frame rate mode with a dimension of width = 1280 , height = 720 and 30 fps. I have used OpenShot video editor to convert "Ai assignment video.mp4" to the required video format named as "original formatted.mp4" to acheive best results (For more file comparison, you can check Videos_Metadata_comparison.txt above - To check difference between AI Assignment video.mp4 and original formatted.mp4 )
+
+## Code Execution
+
+To determine the region of interest coordinates and color ranges, I utilized the Jupyter notebook "ROI_Coordinates_and_color_ranges.ipynb". Then, I incorporated the identified region of interest coordinates and color ranges into a Python file named "main.py". Before executing the code, I have set the input file path as "original formated.mp4" and the output file path as "processed_video.mp4" which must be present in local folder which you can get from below media files link.
 
 All the media files related to this project can be found on this link:
 
 https://drive.google.com/drive/folders/18ABPey2TltEyoVhKjKlyxEbJIULpW3vW?usp=share_link
-
-## Code Execution
-
-To determine the region of interest coordinates and color ranges, I utilized the Jupyter notebook "ROI_Coordinates_and_color_ranges.ipynb". Then, I incorporated the identified region of interest coordinates and color ranges into a Python file named "main.py". Before executing the code, please set the input file path as "original formated.mp4" and the output file path as "processed_video.mp4" which you can get from above media files link.
 
 ## Files Included
 
