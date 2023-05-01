@@ -1,5 +1,5 @@
 |-------------------|----------------------|-----------------------|
-|      Parameter    |  AI Assignment video  |    original formated   |
+|      Parameter    |  AI Assignment video  |    original formatted   |
 |-------------------|----------------------|-----------------------|
 |     Format        |        MPEG-4         |         MPEG-4         |
 |   Format profile  |  Base Media / Version 2 |        Base Media     |
