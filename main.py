@@ -6,7 +6,7 @@ import pandas as pd
 import os
 from datetime import datetime, timedelta
 
-# Set the input file path
+# Set the input file path and output file path (original formatted.mp4 must be in local folder)
 Input_file = "original formatted.mp4"
 Output_file = "processed_video.mp4"
 
@@ -533,9 +533,6 @@ for i in tqdm(range(0, total_frames)):
 # Release the video stream and output video file
 vs.release()
 out.release()
-
-# Import the os module
-import os
 
 # Use the os.startfile() method to play the video
 if os.path.exists(Output_file):
