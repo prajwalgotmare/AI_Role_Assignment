@@ -10,7 +10,7 @@ This project involves taking an input video file in mp4 format and performing co
 
 ## Video Conversion
 
-The provided input video was labeled as "AI Assignment video" and had a variable frame rate mode of 30.043 fps as found in the metadata of the video. Therefore, the video was first converted to a constant frame rate mode with a dimension of width = 1280 , height = 720 and 30 fps. I have used OpenShot video editor to convert "Ai assignment video.mp4" to the required video format named as "original formatted.mp4" to acheive best results (For more file comparison, you can check Videos_Metadata_comparison.txt above - To check difference between AI Assignment video.mp4 and original formatted.mp4 )
+The provided input video was labeled as "AI Assignment video" and had a variable frame rate mode of 30.043 fps as found in the metadata of the video. Therefore, the video was first converted to a constant frame rate mode with a dimension of width = 1280 , height = 720 and 30 fps. I have used OpenShot video editor to convert "Ai assignment video.mp4" to the required video format labeled as "original formatted.mp4" to acheive best results (For more file comparison, you can check Videos_Metadata_comparison.txt above - To check difference between AI Assignment video.mp4 and original formatted.mp4 )
 
 ## Code Execution
 
