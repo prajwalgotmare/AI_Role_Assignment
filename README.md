@@ -2,7 +2,7 @@
 
 I have referred this file to complete this project: https://docs.google.com/document/d/1APypjaN3nmU1Pey_dxJcfPkQHqdOERwLzO02N0BXiIE/edit
 
-This project involves taking an input video file in mp4 format and performing computer vision techniques which will result in generating an output video file that incorporates ball tracking with color, overlay text “Entry or Exit” & timestamp at the time of entry/exit of a numbered quadrant, and a text file with records in the format asked(Time, Quadrant Number, Ball Colour, Event Type (Entry or Exit)).
+This project involves taking an input video file in mp4 format and performing computer vision techniques which will result in generating an output video file that incorporates ball tracking with color, overlay text “Entry or Exit” & timestamp at the time of entry/exit of a numbered quadrant, and a text file with records in the format as requested (Time, Quadrant Number, Ball Colour, Event Type (Entry or Exit)).
 
 <div align="center">
 <img src="https://i.imgur.com/oCZ9bxN.png" width="400">
